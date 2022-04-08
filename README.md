@@ -90,7 +90,7 @@ Dim tickerIndex As Long
     Next x
 ```
 
-The first thing that is different is that the refactored code isn't a double nested for-loop. A double for-loop runs it O(log N) time. The refactored code runs in O(n) time. Normally O(log n) is better for complicated scripts and analysis but in this case we are running a macro one time so a linear time is faster. Another difference is the storage of data. In the refactored code, the results are held in seperate arrays so that when they are output, they can be at once instead of having to loop so many times like the original code did.
+The first thing that is different is that the refactored code isn't a double nested for-loop. A double for-loop runs it O(log N) time. The refactored code runs in O(n) time. Normally O(log n) is better for complicated scripts and analysis but in this case we are running a macro one time so a linear time is faster. Another difference is the storage of data. In the refactored code, the results are held in seperate arrays so that when they are output, they can be at once instead of having to loop so many times like the original code did. If you check the resources folder, you will find screenshots of the results. I called the refactored script the efficient one and when you look at the result, I saved 0.02 seconds about.
 
 
 ## Summary
