@@ -95,4 +95,4 @@ The first thing that is different is that the refactored code isn't a double nes
 
 ## Summary
 
-All in all, on a small scale you may not need to recode/refactor your code but when you are dealing with thousands-millions of rows of data, any time you can cut is important. One second off each run when you run a script a thousand times plus a day can free up so much time and energy consumed by your script. In my case, the biggest difference was Big-O notation. The original code was all nested and clogged up the runtime. By moving around and refactoring our code, I was able to save a lot of time.
+All in all, on a small scale you may not need to recode/refactor your code but when you are dealing with thousands-millions of rows of data, any time you can cut is important. One second off each run when you run a script a thousand times plus a day can free up so much time and energy consumed by your script. In my case, the biggest difference was Big-O notation. The original code was all nested and clogged up the runtime. By moving around and refactoring our code, I was able to save a lot of time (for programming).
